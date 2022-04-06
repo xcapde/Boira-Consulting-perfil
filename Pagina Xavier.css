@@ -1,0 +1,217 @@
+body {
+    margin: 0px;
+    font-family:'Jost', sans-serif;  
+}
+
+header {
+    color: #FFFFFF;
+    background-color: #FF7F99;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+.logo {
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 50px;
+}
+
+.logo span {
+    color: #fff27e;
+}
+
+                                               /*REACCIONS LOGOTIP*/
+
+.logo a:link {
+text-decoration: none;
+}
+
+.logo a:hover {
+    background-color: #FF7F99;
+    border: none;
+}
+
+nav {
+    list-style: none;
+    margin-right: 60px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+li {
+    display: inline;
+    height: 100px;
+}
+
+header a{
+    text-decoration: none;
+    color: #FFFFFF;
+    margin-left: 40px;
+    padding: 10px 25px 10px 25px;
+}
+                                               /*REACCIONS LINKS MENÚ*/
+header a:hover{
+    border-style: solid;
+    background-color:#ff9492;
+    border-radius: 45px;
+    border-width: 1px;
+    border-color: #FFCA41;
+}
+
+header a:active{
+    border-style: solid;
+    background-color:#FFCA41;
+    border-radius: 45px;
+    border-width: 1px;
+    border-color: #FFCA41;
+}
+
+
+                                               /*CONTINGUT*/
+main{
+    background-color: #FFFFFF;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;    
+}
+
+.fonsimatgecentral {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 90px;
+    background-color: #FF7F99;
+    border-style: solid;
+    border-width: 8px;
+    border-color: #FF7F99;
+    border-radius: 50%;
+    border-top-right-radius:0%;
+    height: 531px;
+    width: 531px;
+}
+
+.bigavatar {
+    border-radius: 50%;
+    height: 530px;
+    width: 530px;
+}
+
+.textprincipal {
+    padding-top: 6%;
+    padding-left: 10%;    
+    padding-right: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.nom {
+    color: #d06077;
+    font-size: 75px;
+    font-weight:400;
+}
+
+.cognom {
+    color: #d06077;
+    font-size: 75px;
+    font-weight:400;
+    margin-top: -53px;
+}
+
+.professio {
+    color:rgb(31, 31, 31);
+    font-size: 20px;
+    font-weight: 500;
+    justify-content: flex-start;
+}
+
+.descripcio {
+    padding-top: 20px;
+    max-width: 450px;
+}
+
+.centrallinks {
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.iconlinkedin{
+    height: 40px;
+    width: 40px;
+}
+
+                                               /*REACCIONS BOTÓ MAIN*/
+
+main button {
+    color: #FFFFFF;
+    background-color: #ffca41;
+    width: fit-content;
+    height: fit-content;
+    font-weight:bold;
+    font-size: 20px;
+    border-radius: 45px;
+    border-color: #ffca41;
+    border-style: solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+main button:hover{
+    background-color: #91e40b;
+    border-color: #91e40b;
+}
+
+main button:active{
+    background-color: #b5f055;
+    border-color: #b5f055;
+    border-style:inherit;
+}
+
+
+                                               /*SECCIÓ INFERIOR*/
+section {
+    background-color: #FF7F99;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tarjaperfil {
+    padding: 0 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smallavatar {
+    border-radius: 50%;
+    height: 277px;
+    width: 277px;
+}
+
+.nomavatar {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.especialitat {
+    color: #000000;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+section .iconlinkedin {
+    margin-top: 15px;
+    display: block;
+}
