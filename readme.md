@@ -1,40 +1,29 @@
-# TO DO LIST APP
+# BOIRA CONSULTING
 
 ## 📜 RESUM
 
-L'aplicació permet generar una llista en la que s'hi poden afegir i eliminar tasques.
+Pàgina de perfil estàtica, elaborada individualment i que complementa la pàgina desenvolupada en equip i amb el mateix nom. La pàgina no és responsive i està pensada per visualitzar des de la pantalla d'un ordinador.
 
 ## 💻 TECNOLOGIES
 - HTML 5
 - CSS 3
-- JS ES6  VANILLA
 
-## ⚙️ TÈCNIQUES EMPRADES
-- Responsive Design.
-- Variables CSS.
+## 🔗 ENLLAÇOS
+##### TREBALL INDIVIDUAL
+[xcapde.github.io/Boira-Consulting-perfil/ ](https://xcapde.github.io/Boira-Consulting-perfil// "xcapde.github.io/Boira-Consulting-perfil")
 
-## 🔗 ENLLAÇ
-[xcapde.github.io/ToDoList-1 ](http://https://xcapde.github.io/ToDoList-1/ "xcapde.github.io/ToDoList-1")
+##### TREBALL EN GRUP
+[xcapde.github.io/Boira-Consulting](https://xcapde.github.io/Boira-Consulting// "xcapde.github.io/Boira-Consulting")
 
 ## ✅ OBJECTIUS
 
-Estem treballant per presentar noves funcionalitats operatives properament:
-- Editar el contingut de cada tasca.
-- Canviar l'estat de cada tasca. 
-- Bloquejar una tasca per evitar canvis.
-- Cercar entre els elements de la llista,
-- Eliminar tot el contingut de la llista.
+- Plagiar el disseny proposat en l'exercici.
+- Connectar els enllaços. 
 
 ## 👁️‍🗨️ CAPTURES DE PANTALLA
 
-###### PC
-![Inici](/images/1%20PC%20default.png "Inici")
-###### Mòbil
-
-![Tasques creades](/images/2%20mobile%20tasks.png "Tasques creades")
-![Eliminant tasca](/images/3%20delete%20task.png "Eliminant tasca")
-![Tasca eliminada](/images/4%20deleted.png "Tasca eliminada")
+![Inici](/Imatges/Screenshot.png "Inici")
 
 
 ## AGRAÏMENTS
-Aquesta aplicació no hauria sigut possible sense l'ajuda i la paciència dels companys del meu equip i del nostre formador del Bootcamp.
+Aquesta pàgina no hauria sigut possible sense l'ajuda del meu formador del Bootcamp i dels creadors del material didàctic que he consultat on-line.
